@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BeerBuddy</title>
-    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/base/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/modules/modules.css">
 </head>
 <header>
+    <h1>BeerBuddy</h1>
     <nav>
         <ul>
             <li>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
-            <li>Search By Food</li>
-            <li>Search By Beer</li>
             <li>About Us</li>
         </ul>
     </nav>
 </header>
+        
 <body>
     <div>  
             <!-- User birthday prompt page, user enters bday and if 21 or over they can use app, if not 21 user gets alert prompt "You are not old enough." Local Storage remembers users birthday.-->
@@ -24,20 +27,24 @@
     </div>
 
     <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
+    <div>
+        <button class=searchFood type="button">Search by Food</button>
+        <button class=searchBeer type="button">Search by Beer</button>
+    </div>
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
     <div>  
         <button type="button">Lighter Dishes</button>
-        <button type="button">Strong, Spicy Dishes</button>
+        <button type="button">Hearty/ Rich Dishes</button>
 
-        <button type="button">Hearty Dishes</button>
-        <button type="button">Roasted or BBQ Dishes</button>
+        <button type="button">Spicy/ Vesty Dishes</button>
+        <button type="button">Intensely Flavored Dishes</button>
 
-        <button type="button">Mexican Dishes</button>
-        <button type="button">Asian Dishes</button>
+        <button type="button">Roasted/ Smoked Dishes</button>
+        <button type="button">Barbeque Dishes</button>
 
-        <button type="button">Cheese</button>
-        <button type="button">Pasta</button>
+        <button type="button">Vegetarian Dishes</button>
+        <button type="button">Cheese/ Dessert Dishes</button>
     </div>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
