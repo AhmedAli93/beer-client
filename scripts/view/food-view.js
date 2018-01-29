@@ -2,9 +2,9 @@
 
 let app = app || {};
 
-(function (module) => {
-    
-    const foodView= = {};
+(function (module) {
+
+    const foodView = {};
 
     foodView.initFoodViewPage = () {
         reset();
