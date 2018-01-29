@@ -1,3 +1,19 @@
+paringGuide, aboutUs:link {
+    text-decoration: none;
+}
+
+paringGuide, aboutUs:visited {
+    text-decoration: none;
+}
+
+paringGuide, aboutUs:hover {
+    text-decoration: underline;
+}
+
+paringGuide, aboutUs:active {
+    text-decoration: underline;
+}
+
 .searchFood {
     padding: 20px;
     margin-top: 20px;
