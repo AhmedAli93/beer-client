@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/reset.css"
+
+    <link rel="stylesheet" href="styles/reset.css">
     <title>Beer Match</title>
     <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" hred="vendor/styles/osx.css">
+    
+    <style>
+        
+    </style>
 </head>
 <header>
     <h1>Beer Match</h1>
@@ -20,6 +26,12 @@
     </nav>
 </header>
 <body>
+        <div class="popup">
+                <div class="button">Enter Site</div>
+                <img src="http://dannypaton.com/codepen/close_button.svg" class="close_button" alt="A button to close the popup.">
+                
+              </div>
+             
     <div class="age-verification container">  
             <!-- User birthday prompt page, user enters bday and if 21 or over they can use app, if not 21 user gets alert prompt "You are not old enough." Local Storage remembers users birthday.-->
     </div>
@@ -63,12 +75,16 @@
     <div class="about-view container">
         <!--About us page, with our photos and descriptions-->
     </div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="scripts/controller/verify.js"></script>
+<script src="vendor/scripts/jquery.js"></script>
+<script src="vendor/scripts/jquery.simplemodal.js"></script>
 <script src="about-view.js"></script>
 <script src="age-verify-view.js"></script>
 <script src="beer-view.js"></script>
 <script src="choose-view.js"></script>
 <script src="food-view.js"></script>
 <script src="guide-view.js"></script>
-
 </body>
 </html>
