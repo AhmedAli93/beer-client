@@ -9,7 +9,9 @@ let app = app || {};
     aboutView.initAboutPage = () => {
         $('.container').empty();
         $('.about-view').show();
-    }
+    };
+
+    
 
     module.aboutView = aboutView;
 })(app);
