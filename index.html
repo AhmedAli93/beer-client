@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/reset/reset.css"
+    <link rel="stylesheet" href="styles/reset/reset.css">
     <title>Beer Match</title>
     <link rel="stylesheet" type="text/css" href="styles/base/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/modules/modules.css">
 </head>
 <header>
     <h1>Beer Match</h1>
@@ -25,23 +27,12 @@
 
     <div class="choose-view container">
         <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
+        <section class="searchFood" type="button">Search by Food</section>
+        <section class="searchBeer" type="button">Search by Beer</section>
     </div>
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
     <div class="food-view container">  
-<<<<<<< HEAD
-        <button type="button">Lighter Dishes</button>
-        <button type="button">Hearty/ Rich Dishes</button>
-
-        <button type="button">Spicy/ Vesty Dishes</button>
-        <button type="button">Intensely Flavored Dishes</button>
-
-        <button type="button">Roasted/ Smoked Dishes</button>
-        <button type="button">Barbeque Dishes</button>
-
-        <button type="button">Vegetarian Dishes</button>
-        <button type="button">Cheese/ Dessert Dishes</button>
-=======
         <section class="light"><button type="button">Lighter Dishes</button></section>
         <section class="spicy"><button type="button">Strong, Spicy Dishes</button></section>
         <section class="hearty"><button type="button">Hearty Dishes</button></section>
@@ -51,7 +42,6 @@
         <section class="vegetarian"><button type="button">Vegetarian</button></section>
         <section class="seafood"><button type="button">Seafood</button></section>
 
->>>>>>> 8d0d5b73eb1e9732ed5b14294438bd61f9942eaf
     </div>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
