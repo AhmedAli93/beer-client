@@ -6,47 +6,47 @@ let app = app || {};
 
     const foodView = {};
 
-    foodView.initFoodViewPage = () {
+    foodView.initFoodViewPage = function() {
         reset();
         $('.food-view').show();
     };
 
-    foodView.lightPage = () {
+    foodView.lightPage = function() {
         reset();
         $('.light').show();
     };
 
-    foodView.spicyPage = () {
+    foodView.spicyPage = function() {
         reset();
         $('.spicy').show();
     };
     
-    foodView.heartyPage = () {
+    foodView.heartyPage = function() {
         reset();
         $('.hearty').show();
     };
 
-    foodView.roastedPage = () {
+    foodView.roastedPage = function() {
         reset();
         $('.roasted').show();
     };
 
-    foodView.cheeseDessertPage = () {
+    foodView.cheeseDessertPage = function() {
         reset();
         $('.cheese-dessert').show();
     };
 
-    foodView.bbqPage = () {
+    foodView.bbqPage = function() {
         reset();
         $('.bbq').show();
     };
 
-    foodView.vegetarianPage = () {
+    foodView.vegetarianPage = function() {
         reset();
         $('.vegetarian').show();
     };
 
-    foodView.seafoodPage = () {
+    foodView.seafoodPage = function() {
         reset();
         $('.seafood').show();
     }
