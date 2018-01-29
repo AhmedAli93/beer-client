@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BeerBuddy</title>
+    <link rel="stylesheet" href="styles/reset/reset.css">
+    <title>Beer Match</title>
+    <link rel="stylesheet" type="text/css" href="styles/base/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/modules/modules.css">
 </head>
 <header>
+    <h1>Beer Match</h1>
     <nav>
         <ul>
-            <li>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
-            <li>Search By Food</li>
-            <li>Search By Beer</li>
-            <li>About Us</li>
+            <li href="" class=pairingGuide>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
+            <li href="" class=aboutUs>About Us</li>
         </ul>
     </nav>
 </header>
+        
 <body>
-    <div>  
-            <!-- User birthday prompt page, user enters bday and if 21 or over they can use app, if not 21 user gets alert prompt "You are not old enough." Local Storage remembers users birthday.-->
-
+    <div class="age-verification container">  
+            <div class="popup">
+                    <img src="http://dannypaton.com/codepen/close_button.svg" width="15px" height="15px" class="close_button" alt="A button to close the popup.">
+                    <p>hey cunt</p>
+                  </div>
+                  <div class="button">Popup button!</div>
     </div>
 
-    <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
+    <div class="choose-view container">
+        <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
+        <section class="searchFood" type="button">Search by Food</section>
+        <section class="searchBeer" type="button">Search by Beer</section>
+    </div>
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
-    <div>  
-        <button type="button">Lighter Dishes</button>
-        <button type="button">Strong, Spicy Dishes</button>
+    <div class="food-view container">  
+        <section class="light"><button type="button">Lighter Dishes</button></section>
+        <section class="spicy"><button type="button">Strong, Spicy Dishes</button></section>
+        <section class="hearty"><button type="button">Hearty Dishes</button></section>
+        <section class="roasted"><button type="button">Roasted/Smoked</button></section>
+        <section class="cheese-dessert"><button type="button">Cheese/Dessert</button></section>
+        <section class="bbq"><button type="button">BBQ</button></section>
+        <section class="vegetarian"><button type="button">Vegetarian</button></section>
+        <section class="seafood"><button type="button">Seafood</button></section>
 
-        <button type="button">Hearty Dishes</button>
-        <button type="button">Roasted or Smoked Dishes</button>
-
-        <button type="button">Mexican Dishes</button>
-        <button type="button">Asian Dishes</button>
-
-        <button type="button">Cheese</button>
-        <button type="button">Dessert</button>
     </div>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
-    <div>  
+    <div class="beer-view container">  
         <button type="button">Blonde Ale</button>
         <button type="button">Pale Ale</button>
     
@@ -54,9 +63,23 @@
         <button type="button">Stout</button>
     </div>
     
-    <!-- Final Page, showing suggested pairs based on your selections -->
     <div>  
-
+        <!-- Final Page, showing suggested pairs based on your selections -->
     </div>
+
+    <div class="about-view container">
+        <!--About us page, with our photos and descriptions-->
+    </div>
+<script>src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"</script>
+<script src="vendor/scripts/jquery.simplemodal.js"></script>
+<script src="vendor/scripts/jquery.js"></script>
+<script src="scripts/controller/verify.js"></script>
+<script src="about-view.js"></script>
+<script src="age-verify-view.js"></script>
+<script src="beer-view.js"></script>
+<script src="choose-view.js"></script>
+<script src="food-view.js"></script>
+<script src="guide-view.js"></script>
+
 </body>
 </html>
