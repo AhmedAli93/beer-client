@@ -6,9 +6,9 @@
 
     function reset() {
         $('.container').hide();
-    }
+    };
 
-
+        
 
     module.chooseView = chooseView;
 
