@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BeerBuddy</title>
-    <link rel="stylesheet" type="text/css" href="styles/reset/reset.css">
-    <link rel="stylesheet" type="text/css" href="styles/base/base.css">
-    <link rel="stylesheet" type="text/css" href="styles/layout/layout.css">
-    <link rel="stylesheet" type="text/css" href="styles/modules/modules.css">
+    <link rel="stylesheet" href="styles/reset.css"
+    <title>Beer Match</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
 </head>
 <header>
-    <h1>BeerBuddy</h1>
+    <h1>Beer Match</h1>
     <nav>
         <ul>
             <li href="" class=pairingGuide>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
@@ -21,19 +19,16 @@
 </header>
         
 <body>
-    <div>  
+    <div class="age-verification container">  
             <!-- User birthday prompt page, user enters bday and if 21 or over they can use app, if not 21 user gets alert prompt "You are not old enough." Local Storage remembers users birthday.-->
-
     </div>
 
-    <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
-    <div>
-        <button class=searchFood type="button">Search by Food</button>
-        <button class=searchBeer type="button">Search by Beer</button>
+    <div class="choose-view container">
+        <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
     </div>
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
-    <div>  
+    <div class="food-view container">  
         <button type="button">Lighter Dishes</button>
         <button type="button">Hearty/ Rich Dishes</button>
 
@@ -48,7 +43,7 @@
     </div>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
-    <div>  
+    <div class="beer-view container">  
         <button type="button">Blonde Ale</button>
         <button type="button">Pale Ale</button>
     
@@ -62,9 +57,19 @@
         <button type="button">Stout</button>
     </div>
     
-    <!-- Final Page, showing suggested pairs based on your selections -->
     <div>  
-
+        <!-- Final Page, showing suggested pairs based on your selections -->
     </div>
+
+    <div class="about-view container">
+        <!--About us page, with our photos and descriptions-->
+    </div>
+<script src="about-view.js"></script>
+<script src="age-verify-view.js"></script>
+<script src="beer-view.js"></script>
+<script src="choose-view.js"></script>
+<script src="food-view.js"></script>
+<script src="guide-view.js"></script>
+
 </body>
 </html>
