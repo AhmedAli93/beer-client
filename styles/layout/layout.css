@@ -1,11 +1,11 @@
-.searchFood {
-    padding: 20px;
-    margin-top: 20px;
+.search-food img {
+    width: 480px;
+    height: 254px;
 }
 
-.searchBeer {
-    padding: 20px;
-    margin-top: 20px;
+.search-beer img {
+    width: 480px;
+    height: 254px;
 }
 
 .food-view container {
