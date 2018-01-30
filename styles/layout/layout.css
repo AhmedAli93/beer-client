@@ -62,13 +62,22 @@ h1 {
     margin-right: 38px;
 }
 
-/* .pale-wheat {
-    display: inline-block;
-    margin: 0 auto;
-    width: 100%;
-} */
-
 .pale-ale img, .wheat-beer img, .lager img, .strong-ale img, .dark-ale img, .sour-beer img,  .stout img, .porter img, .amber img, .barleywine img, .pilsner img, .ipa img {
+    width: 230px;
+    height: 200px;
+}
+
+.food-view.container {
+    width: 480px;
+}
+
+.food-view.container li {
+    display: inline-block;
+    width: 200px;
+    margin-right: 38px;
+}
+
+.light img, .spicy img, .hearty img, .roasted img, .cheese-dessert img, .bbq img, .vegetarian img, .seafood img {
     width: 230px;
     height: 200px;
 }

@@ -24,7 +24,9 @@
 <body>
     <div class="age-verification container">  
         <div class="popup">
-            
+
+            <img src="http://dannypaton.com/codepen/close_button.svg" width="15px" height="15px" class="close_button" alt="A button to close the popup.">
+
             <h4>Are you 21 or older?</h4>
             <button class="yup">Of Course I am, silly!</button>
             <button class="nope">Nah, Im lame...</button>
@@ -35,7 +37,6 @@
         </div>    
     </div>
     <button class="button">I demand entry, peasant!</button>
-    
     <div class="choose-view container">
 
         <!-- Main Page, user can begin pairing process by starting from "Search Food" or "Search Beer". User sees "Search by Food" and "Search By Beer" buttons. "Simple Pairing Guide" & "About Us" buttons on top of page. -->
@@ -51,68 +52,67 @@
         </div>
 
     </div>
-    
-    <div class="food-view container">  
 
-            <!-- Food Page, multiple rows of two food categories per row with buttons. -->
+    <!-- Food Page, multiple rows of two food categories per row with buttons. -->
+    <ul class="food-view container">  
 
-        <div class="light">
-            <img src="">
+        <li class="light">
+            <img src="./img/food/light-dishes.jpg">
             <div class="title-container">
                 <h3>Lighter Dishes</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="spicy">
-            <img src="">
+        <li class="spicy">
+            <img src="./img/food/spicy.jpg">
             <div class="title-container">
               <h3>Strong, Spicy Dishes</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="hearty">
-            <img src="">
+        <li class="hearty">
+            <img src="./img/food/hearty-rich.jpg">
             <div class="title-container">
                 <h3>Hearty Dishes</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="roasted">
-            <img src="">
+        <li class="roasted">
+            <img src="./img/food/roasted.jpg">
             <div class="title-container">
                 <h3>Roasted/Smoked</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="cheese-dessert">
-            <img src="">
+        <li class="cheese-dessert">
+            <img src="./img/food/cheese.jpg">
             <div class="title-container">
                 <h3>Cheese/Dessert</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="bbq">
-            <img src="">
+        <li class="bbq">
+            <img src="./img/food/bbq.jpg">
             <div class="title-container">
                 <h3>BBQ</h3>
             </div>
-        </div>
+        </li>
 
-        <div class="vegetarian">
-            <img src="">
+        <li class="vegetarian">
+            <img src="./img/food/vegetarian.jpg">
             <div class="title-container">
                 <h3>Vegetarian</h3>
             </div> 
-        </div>
+        </li>
 
-        <div class="seafood">
-            <img src="">
+        <li class="seafood">
+            <img src="./img/food/seafood.jpg">
             <div class="title-container">
                 <h3>Seafood</h3>
             </div>
-        </div>
+        </li>
 
-    </div>
+    </ul>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
     <!--DO SCAFFOLD JUST LIKE THE FOOD-VIEW CONTAINER SCAFFOLD. images are already imported, but need to be resized to 200x200-->
