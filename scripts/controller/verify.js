@@ -14,7 +14,7 @@ $('.button').click(function(event) {
   });
   $('.yup').click(function(event){
     $('.popup').fadeOut(800);
-    $('.container').show();
+    $('.container').fadeIn(800);
     console.log('User is of age:', true);
   });
 // This is an event handler that listens for a keypress of the escape key, this will also close the popup
