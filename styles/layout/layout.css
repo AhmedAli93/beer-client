@@ -1,11 +1,39 @@
 .search-food img {
     width: 480px;
-    height: 254px;
+    height: 254px; 
 }
 
 .search-beer img {
     width: 480px;
     height: 254px;
+}
+
+.search-food {
+    position: relative; 
+}
+
+.search-beer {
+    position: relative;
+}
+
+.search-food h2 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+.search-beer h2 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    /* border: 1px solid red; */
 }
 
 .food-view container {
