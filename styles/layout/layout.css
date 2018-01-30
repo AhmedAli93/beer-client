@@ -19,20 +19,22 @@
 .search-food h2 {
     position: absolute;
     top: 40%;
-    left: 32%;
+    left: 25%;
     font-size: 30px;
+    font-family: 'Days One', sans-serif;
     color: white;
-    background-color: black;
+    /* background-color: black; */
     /* border: 1px solid red; */
 }
 
 .search-beer h2 {
     position: absolute;
     top: 40%;
-    left: 32%;
+    left: 25%;
     font-size: 30px;
+    font-family: 'Days One', sans-serif;
     color: white;
-    background-color: black;
+    /* background-color: black; */
     /* border: 1px solid red; */
 }
 
@@ -45,13 +47,33 @@ h1 {
     font-size: 34px;
 }
 
-.pairing-guide {
+.pairing-guide, .about-us {
     font-family: 'Days One', sans-serif;
     font-size: 16px;
 }
 
-.about-us {
-    font-family: 'Days One', sans-serif;
-    font-size: 16px;
+.beer-view.container {
+    width: 480px;
 }
+
+.beer-view.container li {
+    display: inline-block;
+    width: 200px;
+    margin-right: 38px;
+}
+
+/* .pale-wheat {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100%;
+} */
+
+.pale-ale img, .wheat-beer img, .lager img, .strong-ale img, .dark-ale img, .sour-beer img,  .stout img, .porter img, .amber img, .barleywine img, .pilsner img, .ipa img {
+    width: 230px;
+    height: 200px;
+}
+
+
+
+
 
