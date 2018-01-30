@@ -8,3 +8,6 @@ html {
 * {
     width: 480px;
 }
+h3 {
+    font-size: 2vw;
+}
