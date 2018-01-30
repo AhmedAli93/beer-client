@@ -1,0 +1,81 @@
+div.popup {
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 1.6em;
+    background: rgba(0, 0, 0, 0.66);
+    display: none;
+    height: auto;
+    color: white;
+    left: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+    position: relative;
+    top: 20.5%;
+    width: 99%;
+    height: 300px;
+    padding-left: 15px;
+    z-index: 99999;
+  }
+  
+  /* popup image */
+  
+  img.image {
+    display: block;
+    margin: 3% 0 0 18.6%;
+    padding-bottom: 4%;
+    width: 64%;
+  }
+  
+  /* close button */
+  
+  img.close_button {
+    position: relative;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 2%;
+  }
+  
+  /* click button */
+  
+  div.button {
+      background: #255F85;
+      border-radius: 0.6em;
+      color: white;
+      cursor: pointer;
+      font-family: 'Lato', sans-serif;
+      font-size: 1.2em;
+      margin: 10% auto 0;
+      padding: 3%;
+      text-align: center;
+      margin-bottom: 5%;
+      width: 44%;
+      margin-left: 28%;
+      
+  }
+  
+  /* click button hover */
+  
+  div.button:hover {
+    background: #255F85;
+    color: #FFC857;
+  }
+  .yup {
+    margin-top: 10%;
+    font-size: 1.5vw; 
+    width: 50%;
+    height: 15%;
+    background-color: greenyellow;
+    margin-bottom: 10%;
+    position: relative;
+    margin-left: 1%;
+    border-radius: 0.6em; 
+  }
+  .nope {
+    position: relative;
+    font-size: 1.5vw; 
+    margin-left: 1%;
+    width: 50%;
+    height: 15%;
+    background-color: crimson;
+    border-radius: 0.6em;
+  }
