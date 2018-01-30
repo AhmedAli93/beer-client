@@ -8,7 +8,9 @@
         $('.container').hide();
     };
 
-        
+    chooseView.initChoicePage = function() {
+        reset();
+    }    
 
     module.chooseView = chooseView;
 
