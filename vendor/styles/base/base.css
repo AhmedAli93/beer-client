@@ -1,0 +1,13 @@
+html {
+    width: 480px;
+    margin: 0 auto;
+    /* background-color: brown; */
+    /* opacity: 0.75; */
+}
+
+* {
+    width: 480px;
+}
+h3 {
+    font-size: 2vw;
+}
