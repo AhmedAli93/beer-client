@@ -11,7 +11,5 @@ let app = app || {};
         $('.about-view').show();
     };
 
-    
-
     module.aboutView = aboutView;
 })(app);
