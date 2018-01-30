@@ -1,0 +1,118 @@
+[
+    {
+        "name": "chicken",
+        "style": "", 
+        "beerPair": ["pale-ale", "amber", "red-ale", "pilsner"]
+    },
+    {
+        "name": "seafood",
+        "style": "",
+        "beerPair": ["pale-ale", "amber", "red-ale"]
+    },
+    {
+        "name": "salad",
+        "style": "",
+        "beerPair": ["pale-ale", "wheat-beer", "pilsner"]
+    },
+    {
+        "name": "sushi",
+        "style": "",
+        "beerPair": "wheat-beer"
+    },
+    {
+        "name": "spicy",
+        "style": "",
+        "beerPair": ["lager", "amber", "red-ale"]
+    },
+    {
+        "name": "bbq",
+        "style": "",
+        "beerPair": ["lager", "porter"]
+    },
+    {
+        "name": "sausage",
+        "style": "",
+        "beerPair": ["lager", "dark-ale", "porter"]
+    },
+    {
+        "name": "roasted-meat",
+        "style": "",
+        "beerPair": ["lager", "porter"]
+    },
+    {
+        "name": "roast-beef",
+        "style": "",
+        "beerPair": "strong-ale"
+    },
+    {
+        "name": "lamb",
+        "style": "",
+        "beerPair": "strong-ale"
+    },
+    {
+        "name": "game-meat",
+        "style": "",
+        "beerPair": "strong-ale"
+    },
+    {
+        "name": "roast-pork",
+        "style": "",
+        "beerPair": "dark-ale"
+    },
+    {
+        "name": "smoked-meat",
+        "style": "",
+        "beerPair": ["dark-ale", "porter"]
+    },
+    {
+        "name": "grilled-meat",
+        "style": "",
+        "beerPair": "dark-ale"
+    },
+    {
+        "name": "salmon",
+        "style": "",
+        "beerPair": "dark-ale"
+    },
+    {
+        "name": "steak",
+        "style": "",
+        "beerPair": "stout"
+    },
+    {
+        "name": "meat-pie",
+        "style": "",
+        "beerPair": "stout"
+    },
+    {
+        "name": "oyster",
+        "style": "",
+        "beerPair": "stout"
+    },
+    {
+        "name": "blackened-fish",
+        "style": "",
+        "beerPair": "porter"  
+    },
+    {
+        "name": "burger",
+        "style": "",
+        "beerPair": ["amber", "red-ale"]
+    },
+    {
+        "name": "strong-cheese",
+        "style": "",
+        "beerPair": "barley-wine"
+    },
+    {
+        "name": "dessert",
+        "style": "",
+        "beerPair": "barley-wine"
+    },
+    {
+        "name": "bratwurst",
+        "style": "",
+        "beerPair": "pilsner"
+    }
+
+]
