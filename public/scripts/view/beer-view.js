@@ -3,7 +3,7 @@
 
 (function (module) {
 
-  //beers are accessible
+  //big beer categories are accessible
 
   const beerView = {};
 
@@ -11,7 +11,6 @@
     reset();
     $('.beer-view').show();
     beerView.beers = JSON.parse(localStorage.beer);
-
   };
 
   $('.images').on('click', e => {
