@@ -6,5 +6,6 @@ page('/choosebybeer', app.beerView.initBeerPage ); //beer choice page with categ
 page('/choosebyfood', ctx => ); //food choice page, choose by big category
 page('/choosebybeer/pairing', ctx => );
 page('/choosebyfood/pairing', ctx => );
+page('/about', )//inits the about us page
 
 page();
