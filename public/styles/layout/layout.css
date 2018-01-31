@@ -86,10 +86,82 @@ h1 {
     position: relative;
 }
 
-.pale-ale h3, .wheat-beer h3, .lager h3, .strong-ale h3, .dark-ale h3, .sour.images h3,  .stout h3, .porter h3, .amber h3, .barleywine h3, .pilsener.images h3, .ipa h3 {
+.wheat-beer h3, .lager h3, .strong-ale h3, .dark-ale h3, .ipa h3 {
     position: absolute;
-    top: 35%;
+    top: 38%;
     left: 30%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.pale-ale h3 {
+    position: absolute;
+    top: 38%;
+    left: 18%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.porter h3 {
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.barleywine h3 {
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.stout h3 {
+    position: absolute;
+    top: 38%;
+    left: 10%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.stout h3 {
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.pilsener.images h3 {
+    position: absolute;
+    top: 38%;
+    left: 12%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.sour.images h3 {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.amber h3 {
+    position: absolute;
+    top: 38%;
+    left: 40%;
     font-size: 20px;
     font-family: 'Days One', sans-serif;
     color: white;
@@ -99,10 +171,73 @@ h1 {
     position: relative;
 }
 
-.light h3, .spicy h3, .hearty h3, .roasted h3, .cheese-dessert h3, .bbq h3, .vegetarian h3, .seafood h3 {
+.spicy h3 {
     position: absolute;
-    top: 35%;
+    top: 38%;
+    left: 25%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.light h3 {
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.hearty h3 {
+    position: absolute;
+    top: 38%;
+    left: 20%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.roasted h3 {
+    position: absolute;
+    top: 38%;
+    left: 11%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.cheese-dessert h3 {
+    position: absolute;
+    top: 38%;
+    left: 15%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.bbq h3 {
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.vegetarian h3 {
+    position: absolute;
+    top: 38%;
     left: 30%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+}
+
+.seafood h3 {
+    position: absolute;
+    top: 38%;
+    left: 35%;
     font-size: 20px;
     font-family: 'Days One', sans-serif;
     color: white;
@@ -112,5 +247,10 @@ h1 {
 .ryan-pic {
     border-radius: 50%;
     height: 175px;
-    width: 150px;
+    width: 160px;
+}
+
+.about-view.container p {
+    width: 230px;
+    font-family: 'Days One', sans-serif;
 }
