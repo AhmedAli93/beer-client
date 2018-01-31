@@ -10,6 +10,7 @@
 
     chooseView.initChoicePage = function() {
         reset();
+        $('.choose-view').show();
     }    //write rest of function for choice page//
 
     module.chooseView = chooseView;
