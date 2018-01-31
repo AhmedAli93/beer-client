@@ -3,21 +3,20 @@
 
 (function (module) {
 
-    //beers are accessible
+  //beers are accessible
 
-    const beerView = {};
+  const beerView = {};
 
-    beerView.initBeerPage = function() {
-        reset();
-        $('.beer-view').show();
-        beerView.beers = JSON.parse(localStorage.beer);
+  beerView.initBeerPage = function() {
+    reset();
+    $('.beer-view').show();
+    beerView.beers = JSON.parse(localStorage.beer);
 
-    };
+  };
 
-        $('.images').on('click', e => {
-            console.log(e);
-        });
+  $('.images').on('click', e => {
+    console.log(e);
+  });
 
-    
-    module.beerView = beerView;
+  module.beerView = beerView;
 })(app);
