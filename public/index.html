@@ -10,16 +10,6 @@
     <link rel="stylesheet" type="text/css" href="styles/layout/layout.css">
     <link rel="stylesheet" type="text/css" href="styles/modules/modules.css">
     <link href="https://fonts.googleapis.com/css?family=Days+One" rel="stylesheet">
-
-
-    <!--template for rendering beer information on beer page-->
-    <script id="beer-template" type="text/x-handlebars-template">
-        <section class="clearfix" data-beer="{{shortName}}">
-            <h1>{{shortName}}</h1>
-            <p class="byline">{{description}}</p>
-        </section>
-      </script>
-
 </head>
 <header>
     <h1>Beer Match</h1>
@@ -68,6 +58,7 @@
     </div>
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
+
     <ul class="food-view container">  
 
         <li class="light">
@@ -125,37 +116,41 @@
                 <h3>Seafood</h3>
             </div>
         </li>
-
     </ul>
 
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
     <!--DO SCAFFOLD JUST LIKE THE FOOD-VIEW CONTAINER SCAFFOLD. images are already imported, but need to be resized to 200x200-->
-    <ul class="beer-view container">  
-    
-    <li class="pale-ale">
 
+    <ul class="beer-view container">  
+
+        <!--the <h3>s names are identical to the SHORTNAME property of the object-->
+    
+
+        <!--add data attributes that line up with the NAME property of the beers-->
+
+        <li class="pale-ale images" data="American-Style Pale Ale">
             <img src="./img/beer/pale-ale.jpg">
             <div class="title-container">
-                <h3>Pale Ale</h3>
+                <h3>American Pale</h3>
             </div>
         </li>
 
-        <li class="wheat-beer">
+        <li class="wheat-beer images" data="South German-Style Hefeweizen / Hefeweissbier">
             <img src="./img/beer/wheat-beer.jpg">
             <div class="title-container">
-              <h3>Wheat Beer</h3>
+              <h3>Hefeweizen</h3>
             </div>
         </li>
     
-        <li class="lager">
-            <img src="./img/beer/lager.jpg">
+        <li class="porter images" data="Brown Porter">
+            <img src="./img/beer/porter.jpg">
             <div class="title-container">
-                <h3>Lager</h3>
+                <h3>Brown Porter</h3>
             </div>
         </li>
 
 
-        <li class="strong-ale">
+        <li class="strong-ale images" data="Strong Ale">
             <img src="./img/beer/strong-ale.jpg">
             <div class="title-container">
                 <h3>Strong Ale</h3>
@@ -163,64 +158,48 @@
         </li>
 
 
-        <li class="dark-ale">
-            <img src="./img/beer/dark-ale.jpg">
+        <li class="pilsener images" data="German-Style Pilsener">
+            <img src="./img/beer/pilsner.jpg">
             <div class="title-container">
-                <h3>Dark Ale</h3>
+                <h3>German Pilsener</h3>
             </div>
         </li>
 
 
-        <li class="sour-beer">
-            <img src="./img/beer/sour.jpg">
+        <li class="amber images" data="American-Style Amber/Red Ale">
+            <img src="./img/beer/amber.jpg">
             <div class="title-container">
-                <h3>Sour Beer</h3>
+                <h3>Amber</h3>
             </div>
         </li>
 
-        <li class="stout">
-            <img src="./img/beer/stout.jpg">
+        <li class="ipa images" data="English-Style India Pale Ale">
+            <img src="./img/beer/ipa.jpg">
             <div class="title-container">
-                <h3>Stout</h3>
+                <h3>English IPA</h3>
             </div> 
         </li>
 
-        <li class="porter">
-            <img src="./img/beer/porter.jpg">
+        <li class="sour images" data="American-Style Sour Ale">
+            <img src="./img/beer/sour.jpg">
             <div class="title-container">
-                <h3>Porter</h3>
+                <h3>Sour</h3>
             </div>
         </li>
 
-        <li class="amber">
-            <img src="./img/beer/amber.jpg">
-            <div class="title-container">
-                <h3>Amber/ Red Ale</h3>
-            </div>
-        </li>
-
-        <li class="barleywine">
+        <li class="barleywine images" data="British-Style Barley Wine Ale">
             <img src="./img/beer/barleywine.jpg">
             <div class="title-container">
-                <h3>Barley Wine</h3>
+                <h3>British Barleywine</h3>
             </div>
         </li>
 
-        <li class="pilsner">
-                <img src="./img/beer/pilsner.jpg">
-                <div class="title-container">
-                    <h3>Pilsner</h3>
-                </div>
-            </li>
-    
-
-        <li class="ipa">
-            <img src="./img/beer/ipa.jpg">
+        <li class="stout images" data="American-Style Stout">
+            <img src="./img/beer/stout.jpg">
             <div class="title-container">
-                <h3>IPA</h3>
+                <h3>American Stout</h3>
             </div>
         </li>
-
     </ul>
     
     <div class="pairings-view container">
