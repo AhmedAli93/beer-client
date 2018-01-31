@@ -1,10 +1,10 @@
 {
   "name": "beer-client",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,6 @@
     "express-request-proxy": "^2.0.0",
     "pg": "^7.4.1",
     "superagent": "^3.8.2"
-  }
+  },
+  "description": ""
 }
