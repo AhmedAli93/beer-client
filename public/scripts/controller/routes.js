@@ -7,3 +7,4 @@ page('/choosebyfood', ctx => ); //food choice page, choose by big category
 page('/choosebybeer/pairing', ctx => );
 page('/choosebyfood/pairing', ctx => );
 
+page();
