@@ -4,52 +4,52 @@ let app = app || {};
 
 (function (module) {
 
-    const foodView = {};
+  const foodView = {};
 
-    foodView.initFoodViewPage = function() {
-        reset();
-        $('.food-view').show();
-    };
+  foodView.initFoodViewPage = function() {
+    reset();
+    $('.food-view').show();
+  };
 
-    foodView.lightPage = function() {
-        reset();
-        $('.light').show();
-    };
+  foodView.lightPage = function() {
+    reset();
+    $('.light').show();
+  };
 
-    foodView.spicyPage = function() {
-        reset();
-        $('.spicy').show();
-    };
-    
-    foodView.heartyPage = function() {
-        reset();
-        $('.hearty').show();
-    };
+  foodView.spicyPage = function() {
+    reset();
+    $('.spicy').show();
+  };
 
-    foodView.roastedPage = function() {
-        reset();
-        $('.roasted').show();
-    };
+  foodView.heartyPage = function() {
+    reset();
+    $('.hearty').show();
+  };
 
-    foodView.cheeseDessertPage = function() {
-        reset();
-        $('.cheese-dessert').show();
-    };
+  foodView.roastedPage = function() {
+    reset();
+    $('.roasted').show();
+  };
 
-    foodView.bbqPage = function() {
-        reset();
-        $('.bbq').show();
-    };
+  foodView.cheeseDessertPage = function() {
+    reset();
+    $('.cheese-dessert').show();
+  };
 
-    foodView.vegetarianPage = function() {
-        reset();
-        $('.vegetarian').show();
-    };
+  foodView.bbqPage = function() {
+    reset();
+    $('.bbq').show();
+  };
 
-    foodView.seafoodPage = function() {
-        reset();
-        $('.seafood').show();
-    }
+  foodView.vegetarianPage = function() {
+    reset();
+    $('.vegetarian').show();
+  };
 
-    module.foodView = foodView;
+  foodView.seafoodPage = function() {
+    reset();
+    $('.seafood').show();
+  };
+
+  module.foodView = foodView;
 })(app);
