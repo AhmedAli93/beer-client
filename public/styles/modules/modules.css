@@ -101,3 +101,15 @@ div.popup {
     background-color: crimson;
     border-radius: 0.6em;
   }
+
+  .remember-me.p {
+    font-family: 'Days One', sans-serif;
+  }
+
+  .checkbox {
+    width: 3px;
+    margin-right: 35%;
+  } 
+
+
+
