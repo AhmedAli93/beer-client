@@ -3,9 +3,15 @@
 let app = app || {};
 
 (function (module) {
+let showFood = function() {
+    console.log('work plz');
+};
+
+  $('.food-search').click(showFood()) 
+
+  });
 
     const foodView = {};
-
     foodView.initFoodViewPage = function() {
         reset();
         $('.food-view').show();
