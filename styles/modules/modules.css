@@ -99,3 +99,6 @@ div.popup {
     background-color: crimson;
     border-radius: 0.6em;
   }
+  .food-search {
+    cursor: crosshair;
+  }
