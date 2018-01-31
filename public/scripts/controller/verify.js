@@ -1,4 +1,10 @@
 'use strict';
+
+$.get('/verify', (req, res) => {
+  localStorage.beer = JSON.stringify(req.beer);
+  localStorage.food = JSON.stringify(req.food);
+});
+
 // This is the event handler for the button to access our page, this will fade in our verify popup.
 $('.button').click(function(event) {
     $('.popup').fadeIn(800);
