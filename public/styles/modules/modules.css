@@ -112,6 +112,13 @@ div.popup {
     margin-left: 31%;
     width: 20px;
   }
-
-
+.logo {
+  position: absolute;
+  height: 56px;
+  width: 47px;
+  margin-left: 379px;
+}
+.navs {
+  
+}
 
