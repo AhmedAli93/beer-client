@@ -3,13 +3,13 @@
 let app = app || {};
 
 (function (module) {
-    const aboutView = {};
+  const aboutView = {};
 
-    //need to assign container classes to HTML elements still 
-    aboutView.initAboutPage = () => {
-        $('.container').empty();
-        $('.about-view').show();
-    };
+  //need to assign container classes to HTML elements still
+  aboutView.initAboutPage = () => {
+    $('.container').empty();
+    $('.about-view').show();
+  };
 
-    module.aboutView = aboutView;
+  module.aboutView = aboutView;
 })(app);
