@@ -1,10 +1,10 @@
 'use strict';
 
-var thing = 'sfsdf'
+var thing = 'sfsdf';
 
 if (window.location.pathname !== '/') {
-    page.base('Beer-Match');
-};
+  page.base('Beer-Match');
+}
 
 // console.log(app)
 
