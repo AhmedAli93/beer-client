@@ -14,8 +14,7 @@ var app = app || {};
   var beerPairing = {};
 
   beerPairing.beers = function() {
-    reset();
-    $('food-pairings-view').show();
+  
    
   };
 
