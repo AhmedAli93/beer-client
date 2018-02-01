@@ -20,12 +20,12 @@ a:visited {
 }   
 /* mouse over link */
 a:hover {
-    color: red;
+    color: rgb(255, 156, 8);
 }
 
 nav {
     margin-bottom: 10%;
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px black;
     height: 40px;
     margin-top: 10px;
 }
