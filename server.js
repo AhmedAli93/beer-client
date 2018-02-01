@@ -36,32 +36,33 @@ const whitelist = [
     "American-Style Sour Ale",
   ]
 
-app.get('/', (req, res) => {
-  res.sendFile('index.html', { root: './public'});
-});
-
-// breweryDB proxy call - /beers/:beerId gets a specific beer
-app.get('/beers/*', beers);
-function beers(request, response){
-  superagent
-  .get(`http://api.brewerydb.com/v2/style/${request.params[0]}`)
-  .set('Authorization', process.env.BREWERY_SECRET)
-  .end(function(err, res){ 
-    response.send(JSON.parse(res.text).data);
-  })
-};
-
-// ::::  if you want to get all beers, get a premium acct and get all beers :::: //
-
-app.get('/verify', (req, res) => {
+  
+  // breweryDB proxy call - /beers/:beerId gets a specific beer
+  app.get('/beers/*', beers);
+  function beers(request, response){
     superagent
-      .get(`http://api.brewerydb.com/v2/styles`)
-      .set('Authorization', 'ac0a762267864965144e04a4b3c47f99')
-      .end((err, data) => {
-        data = JSON.parse(data.text).data;
-        const filtered = data.filter(v => whitelist.includes(v.name))
-        res.send({ beer: filtered, food: foodData })
-      })
+    .get(`http://api.brewerydb.com/v2/style/${request.params[0]}`)
+    .set('Authorization', process.env.BREWERY_SECRET)
+    .end(function(err, res){ 
+      response.send(JSON.parse(res.text).data);
+    })
+  };
+  
+  // ::::  if you want to get all beers, get a premium acct and get all beers :::: //
+  
+  app.get('/getItems', (req, res) => {
+    superagent
+    .get(`http://api.brewerydb.com/v2/styles`)
+    .set('Authorization', 'ac0a762267864965144e04a4b3c47f99')
+    .end((err, data) => {
+      data = JSON.parse(data.text).data;
+      const filtered = data.filter(v => whitelist.includes(v.name))
+      res.send({ beer: filtered, food: foodData })
+    })
+  });
+
+  app.get('*', (req, res) => {
+    res.sendFile('index.html', { root: './public'});
   });
 
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));

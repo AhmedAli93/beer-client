@@ -14,9 +14,14 @@
 <header>
     <h1>Beer Match</h1>
     <nav>
+
+        <ul> 
+            <li class="about-us"><a href="about">About Us</a></li>
+
         <ul>
             <li href="#" class=pairing-guide>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
             <a><li href="#" class=about-us>About Us</li></a>
+
         </ul>
     </nav>
 </header>
@@ -135,6 +140,7 @@
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
     <!--DO SCAFFOLD JUST LIKE THE FOOD-VIEW CONTAINER SCAFFOLD. images are already imported, but need to be resized to 200x200-->
 
+    
     <ul class="beer-view container">  
 
         <!--the <h3>s names are identical to the SHORTNAME property of the object-->
@@ -246,16 +252,18 @@
         </section>
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+
 <!-- <script src="vendor/scripts/jquery.js"></script> -->
+
 <script src="scripts/controller/verify.js"></script>
 <script src="scripts/view/about-view.js"></script>
-<script src="scripts/view/age-verify-view.js"></script>
 <script src="scripts/view/beer-view.js"></script>
 <script src="scripts/view/choose-view.js"></script>
 <script src="scripts/view/food-view.js"></script>
-<script src="scripts/view/guide-view.js"></script>
+<script src="scripts/view/beer-pairings.js"></script>
+<script src="scripts/controller/routes.js"></script>
 
 </body>
 </html>
