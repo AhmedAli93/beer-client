@@ -1,16 +1,12 @@
 'use strict';
 
-var app= app || {};
+var app = app || {};
 
 (function (module) {
 
-
     function reset() {
-        $('.container').hide();
-    };
-
-    
-    const aboutView = {};
+      $('.container').hide();
+    }
 
   const aboutView = {};
 

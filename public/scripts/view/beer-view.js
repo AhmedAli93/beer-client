@@ -13,7 +13,7 @@ var app = app || {};
   const beerView = {};
 
   beerView.initBeerPage = function() {
-    app.reset();
+    reset();
     $('.beer-view').show();
     beerView.beers = JSON.parse(localStorage.beer);
     
@@ -23,8 +23,6 @@ var app = app || {};
       beers.forEach(beer => {
         if(beer.name === $('li').attr(data))
         beerPairing.append(this);
-        
-        
       })
     })
   };
