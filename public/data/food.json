@@ -25,49 +25,49 @@
         "beerPair": ["British-Style Barley Wine Ale", "American-Style Stout", "Brown Porter"]
     },
     {
-        "name": "", 
+        "name": "beef", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["American-Style Amber/Red Ale", "Strong Ale", "Brown Porter", "American-Style Stout"]
     },
     {
-        "name": "", 
+        "name": "fish", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["American-Style Amber/Red Ale", "English-Style India Pale Ale", "American-Style Pale Ale", "German-Style Pilsener", "South German-Style Hefeweizen / Hefeweissbier"]
     },
     {
-        "name": "", 
+        "name": "game", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["English-Style India Pale Ale", "American-Style Stout", "Brown Porter", "Strong Ale"]
     },
     {
-        "name": "", 
+        "name": "smoked-meat", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["American-Style Stout", "Brown Porter"]
     },
     {
-        "name": "", 
+        "name": "pork", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["American-Style Lager", "Strong Ale", "American-Style Stout"]
     },
     {
-        "name": "", 
+        "name": "italian", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["American-Style Lager"]
     },
     {
-        "name": "", 
+        "name": "indian", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["German-Style Pilsener", "American-Style Pale Ale", "English-Style India Pale Ale", "American-Style Lager"]
     },
     {
-        "name": "", 
+        "name": "japanese", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["German-Style Pilsener", "American-Style Lager"]
     },
     {
-        "name": "", 
+        "name": "german", 
         "description": "",
-        "beerPair": ""
+        "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "German-Style Pilsener", "American-Style Pale Ale"]
     }
 
 ]
