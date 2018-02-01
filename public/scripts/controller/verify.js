@@ -42,18 +42,24 @@ $('.nope').click(function(event){
 
 // event handler that listens for checkbox to be clicked, persists in localStorage. Reloads page on refresh without asking users age.
 
-var checkboxValues = JSON.parse(localStorage.getItem('checkboxValues')) || {},
-    $checkboxes = $(".remember-me :checkbox");
+let checkboxValue = JSON.parse(localStorage.getItem('checkboxValues')) || {},
+  checkboxes = $('.remember-me :checkbox');
 
-$checkboxes.on("change", function(){
-  $checkboxes.each(function(){
-    checkboxValues[this.id] = this.checked;
+checkboxes.on("change", function(){
+  checkboxes.each(function(){
+    checkboxValue[this.id] = this.checked;
   });
   
-  localStorage.setItem("checkboxValues", JSON.stringify(checkboxValues));
+  localStorage.setItem('checkboxValues', JSON.stringify(checkboxValue));
 });
 
 // On page load
-$.each(checkboxValues, function(key, value) {
-  $("#" + key).prop('checked', value);
+$.each(checkboxValue, function(key, value) {
+  $('#' + key).prop('checked', value);
 });
+if (checkboxValue.checkbox === true) {
+  $('popup').hide();
+  $('.container').fadeIn(800);
+  $('.button').fadeOut(1);
+  console.log('hi',checkboxValue.checkbox);
+}
