@@ -15,7 +15,7 @@ $('.button').click(function(event) {
   $('.popup2').hide();
   $('.popup').fadeIn(800);
   $('.button').fadeOut(1);
-    
+
 });
 // Event handler for when the close button is pushed.
 $('.close_button').click(function(event) {
@@ -45,7 +45,7 @@ $('.nope').click(function(event){
 let checkboxValue = JSON.parse(localStorage.getItem('checkboxValues')) || {},
   checkboxes = $('.remember-me :checkbox');
 
-checkboxes.on("change", function(){
+checkboxes.on('change', function(){
   checkboxes.each(function(){
     checkboxValue[this.id] = this.checked;
   });
