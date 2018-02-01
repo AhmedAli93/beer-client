@@ -7,9 +7,22 @@ html {
 * {
     width: 480px;
 }
-h3 {
-    /* font-size: 4vw; */
+
+/* Unvisited link */
+a {
+    color: black;
+    font-family: 'Days One', sans-serif;
+    text-decoration: none;
 }
+/* visited link */
+a:visited {
+    color: black;
+}   
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
 nav {
     margin-bottom: 10%;
 }
