@@ -33,7 +33,7 @@ const whitelist = [
     "American-Style Pale Ale",
     "American-Style Stout",
     "English-Style India Pale Ale",
-    "American-Style Sour Ale",
+    "American-Style Lager",
   ]
 
   
