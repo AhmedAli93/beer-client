@@ -15,7 +15,7 @@ $('.button').click(function(event) {
   $('.popup2').hide();
   $('.popup').fadeIn(800);
   $('.button').fadeOut(1);
-    
+
 });
 // Event handler for when the close button is pushed.
 $('.close_button').click(function(event) {
@@ -35,7 +35,7 @@ $(document).on('keydown', function(e) {
 $('.nope').click(function(event){
   $('.popup').fadeOut(800);
   $('.popup2').fadeIn(800);
-  $('.button').fadeOut(5);
+  $('.button').fadeOut(1);
   console.log('User is of age:', false);
 
 });
@@ -45,11 +45,11 @@ $('.nope').click(function(event){
 let checkboxValue = JSON.parse(localStorage.getItem('checkboxValues')) || {},
   checkboxes = $('.remember-me :checkbox');
 
-checkboxes.on("change", function(){
+checkboxes.on('change', function(){
   checkboxes.each(function(){
     checkboxValue[this.id] = this.checked;
   });
-  
+
   localStorage.setItem('checkboxValues', JSON.stringify(checkboxValue));
 });
 
