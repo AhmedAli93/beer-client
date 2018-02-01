@@ -14,6 +14,7 @@ page('/choose', app.chooseView.initChoicePage); //choice page, if you want to pa
 page('/choosebybeer', app.beerView.initBeerPage); //beer choice page with categories of beer
 page('/choosebyfood', app.foodView.initFoodPage); //food choice page, choose by big category
 page('/choosebybeer/pairing', ctx => app.beerPairing.beers(ctx));
+page('/choosebyfood/pairing', ctx => app.foodPairing.food(ctx));
 // page('/choosebyfood/pairing');
 page('/about', app.aboutView.initAboutPage); //inits the about us page
 
