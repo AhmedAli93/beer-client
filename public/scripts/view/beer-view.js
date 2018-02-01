@@ -13,9 +13,7 @@
     beerView.beers = JSON.parse(localStorage.beer);
   };
 
-  $('.images').on('click', e => {
-    console.log(e);
-  });
+
 
   module.beerView = beerView;
 })(app);
