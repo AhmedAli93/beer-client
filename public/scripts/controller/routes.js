@@ -11,7 +11,7 @@ if (window.location.pathname !== '/') {
 // page('/'); //initial page where we verify if the user is of age
 page('/choose', app.chooseView.initChoicePage); //choice page, if you want to pair by food or by beer
 page('/choosebybeer', app.beerView.initBeerPage); //beer choice page with categories of beer
-// page('/choosebyfood', null); //food choice page, choose by big category
+page('/choosebyfood', app.foodView.initFoodPage); //food choice page, choose by big category
 page('/choosebybeer/pairing', ctx => app.beerPairing.beers(ctx));
 // page('/choosebyfood/pairing');
 page('/about', app.aboutView.initAboutPage); //inits the about us page

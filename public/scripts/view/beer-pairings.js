@@ -8,8 +8,8 @@ var app = app || {};
     $('.container').hide();
   };
 
-  var beers = JSON.parse(localStorage.beer);
-  var foods = JSON.parse(localStorage.food);
+  // var beers = JSON.parse(localStorage.beer);
+  // var foods = JSON.parse(localStorage.food);
 
   var beerPairing = {};
 

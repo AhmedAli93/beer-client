@@ -15,18 +15,18 @@
     <h1>Beer Match</h1>
     <nav>
 
-        
+
 
         <ul>
-            <li href="#" class=pairing-guide>Simple Pairing Guide</li> <!--text/photos about simple pairing--> 
+            <li href="#" class=pairing-guide>Simple Pairing Guide</li> <!--text/photos about simple pairing-->
             <a><li href="#" class=about-us>About Us</li></a>
 
         </ul>
     </nav>
 </header>
-        
+
 <body>
-    <div class="age-verification container">  
+    <div class="age-verification container">
         <div class="popup">
 
             <img src="http://dannypaton.com/codepen/close_button.svg" width="15px" height="15px" class="close_button" alt="A button to close the popup.">
@@ -37,14 +37,14 @@
 
             <div class="remember-me">
                 <label for="checkbox">Remember me!</label><input id="checkbox" type="checkbox">
-                
+
             </div>
 
         </div>
         <div class="popup2">
             <img src="http://dannypaton.com/codepen/close_button.svg" width="15px" height="15px" class="close_button" alt="A button to close the popup.">
             <h4>Sorry, you're not old enough to use this application.</h4>
-        </div>    
+        </div>
     </div>
 
     <div class="button">Enter Site</div>
@@ -69,7 +69,7 @@
 
     <!-- Food Page, multiple rows of two food categories per row with buttons. -->
 
-    <ul class="food-view container">  
+    <ul class="food-view container">
 
         <li class="light">
             <a href="choosebyfood/pairing"><img src="img/food/light-dishes.jpg">
@@ -92,7 +92,7 @@
             <div class="title-container">
                 <h3>Hearty Dishes</h3>
             </div>
-            </a>    
+            </a>
         </li>
 
         <li class="roasted">
@@ -123,7 +123,7 @@
             <a href="choosebyfood/pairing"><img src="img/food/vegetarian.jpg">
             <div class="title-container">
                 <h3>Vegetarian</h3>
-            </div> 
+            </div>
             </a>
         </li>
 
@@ -139,14 +139,14 @@
     <!-- Beer Page, multiple rows of two beer categories per row with buttons. -->
     <!--DO SCAFFOLD JUST LIKE THE FOOD-VIEW CONTAINER SCAFFOLD. images are already imported, but need to be resized to 200x200-->
 
-    
-    <ul class="beer-view container">  
+
+    <ul class="beer-view container">
 
         <!--the <h3>s names are identical to the SHORTNAME property of the object-->
-    
-        <!--add data attributes that line up with the NAME property of the beers-->
 
-        <li class="pale-ale images" data="American-Style Pale Ale">
+        <!--add id attributes that line up with the NAME property of the beers-->
+
+        <li class="pale-ale images" id="American-Style Pale Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/pale-ale.jpg">
             <div class="title-container">
                 <h3>American Pale</h3>
@@ -154,15 +154,15 @@
             </a>
         </li>
 
-        <li class="wheat-beer images" data="South German-Style Hefeweizen / Hefeweissbier">
-            <a href="choosebybeer/pairing"><img src="img/beer/wheat-beer.jpg">
-            <div class="title-container">
+        <li class="wheat-beer images" >
+            <a href="choosebybeer/pairing"><img id="South German-Style Hefeweizen / Hefeweissbier" src="img/beer/wheat-beer.jpg">
+            <div class="title-container" >
               <h3>Hefeweizen</h3>
             </div>
             </a>
         </li>
-    
-        <li class="porter images" data="Brown Porter">
+
+        <li class="porter images" id="Brown Porter">
             <a href="choosebybeer/pairing"><img src="img/beer/porter.jpg">
             <div class="title-container">
                 <h3>Brown Porter</h3>
@@ -170,7 +170,7 @@
             </a>
         </li>
 
-        <li class="strong-ale images" data="Strong Ale">
+        <li class="strong-ale images" id="Strong Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/strong-ale.jpg">
             <div class="title-container">
                 <h3>Strong Ale</h3>
@@ -178,7 +178,7 @@
             </a>
         </li>
 
-        <li class="pilsener images" data="German-Style Pilsener">
+        <li class="pilsener images" id="German-Style Pilsener">
             <a href="choosebybeer/pairing"><img src="img/beer/pilsner.jpg">
             <div class="title-container">
                 <h3>German Pilsener</h3>
@@ -186,7 +186,7 @@
             </a>
         </li>
 
-        <li class="amber images" data="American-Style Amber/Red Ale">
+        <li class="amber images" id="American-Style Amber/Red Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/amber.jpg">
             <div class="title-container">
                 <h3>Amber</h3>
@@ -194,15 +194,15 @@
             </a>
         </li>
 
-        <li class="ipa images" data="English-Style India Pale Ale">
+        <li class="ipa images" id="English-Style India Pale Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/ipa.jpg">
             <div class="title-container">
                 <h3>English IPA</h3>
-            </div> 
+            </div>
             </a>
         </li>
 
-        <li class="sour images" data="American-Style Sour Ale">
+        <li class="sour images" id="American-Style Sour Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/sour.jpg">
             <div class="title-container">
                 <h3>Sour</h3>
@@ -210,7 +210,7 @@
             </a>
         </li>
 
-        <li class="barleywine images" data="British-Style Barley Wine Ale">
+        <li class="barleywine images" id="British-Style Barley Wine Ale">
             <a href="choosebybeer/pairing"><img src="img/beer/barleywine.jpg">
             <div class="title-container">
                 <h3>British Barleywine</h3>
@@ -218,7 +218,7 @@
             </a>
         </li>
 
-        <li class="stout images" data="American-Style Stout">
+        <li class="stout images" id="American-Style Stout">
             <a href="choosebybeer/pairing"><img src="img/beer/stout.jpg">
             <div class="title-container">
                 <h3>American Stout</h3>
@@ -226,7 +226,7 @@
             </a>
         </li>
     </ul>
-    
+
     <div class="beer-pairings-view container">
 
     <!-- Final Page, showing suggested pairs based on your beer selections -->
@@ -234,7 +234,6 @@
     </div>
 
     <div class="food-pairings-view container">
-
     <!-- Final Page, showing suggested pairs based on your food selections -->
 
     </div>
@@ -251,7 +250,7 @@
         </section>
     </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
 
 <!-- <script src="vendor/scripts/jquery.js"></script> -->
