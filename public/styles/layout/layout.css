@@ -284,19 +284,23 @@
 /* About Us page CSS */
 .ryan-pic {
     border-radius: 50%;
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
+    margin-left: 32%;
+    margin-top: 5%;
 }
 
 .katy-pic {
     border-radius: 50%;
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
+    margin-left: 32%;
+    margin-top: 5%;
 }
-
 
 .about-view.container p {
-    width: 230px;
+    font-size: 14px;
     font-family: 'Days One', sans-serif;
 }
+
 
