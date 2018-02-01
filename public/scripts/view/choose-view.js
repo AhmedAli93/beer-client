@@ -12,6 +12,8 @@ var app = app || {};
 
     chooseView.initChoicePage = function() {
         reset();
+        $('.food-view.container').hide();
+        $('.beer-view.container').hide();
         $('.choose-view').show();
     }    //write rest of function for choice page//
 
