@@ -6,7 +6,7 @@ var app = app || {};
 
   function reset() {
     $('.container').hide();
-  };
+  }
 
   //big beer categories are accessible
 
@@ -26,30 +26,30 @@ var app = app || {};
           var foodMatch = beerView.food.filter( v => v.beerPair.includes(beer.name));
           console.log(foodMatch);
 
-          console.log('it works', beer)
-          $('.container').hide()
-          var foodContainer = $('.food-pairings-view')
+          console.log('it works', beer);
+          $('.container').hide();
+          var foodContainer = $('.food-pairings-view');
           var contents = document.createElement('div');
-          var title = document.createElement('h2')
+          var title = document.createElement('h2');
           title.textContent = beer.name;
-          var text = document.createElement('p')
-          text.textContent = beer.description
+          var text = document.createElement('p');
+          text.textContent = beer.description;
           var list = document.createElement('ul');
           
           foodMatch.forEach(v => {
             var li = document.createElement('li');
             li.textContent = v.name;
             list.appendChild(li);
-          })
+          });
           contents.appendChild(title);
           contents.appendChild(text);
           contents.appendChild(list);
-          foodContainer.show()
-          foodContainer.append(contents)
+          foodContainer.show();
+          foodContainer.append(contents);
 
         }
-      })
-    })
+      });
+    });
   };
 
 
