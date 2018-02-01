@@ -15,7 +15,7 @@ $('.button').click(function(event) {
   $('.popup2').hide();
   $('.popup').fadeIn(800);
   $('.button').fadeOut(1);
-    
+
 });
 // Event handler for when the close button is pushed.
 $('.close_button').click(function(event) {
@@ -35,7 +35,31 @@ $(document).on('keydown', function(e) {
 $('.nope').click(function(event){
   $('.popup').fadeOut(800);
   $('.popup2').fadeIn(800);
-  $('.button').fadeOut(5);
+  $('.button').fadeOut(1);
   console.log('User is of age:', false);
 
 });
+
+// event handler that listens for checkbox to be clicked, persists in localStorage. Reloads page on refresh without asking users age.
+
+let checkboxValue = JSON.parse(localStorage.getItem('checkboxValues')) || {},
+  checkboxes = $('.remember-me :checkbox');
+
+checkboxes.on('change', function(){
+  checkboxes.each(function(){
+    checkboxValue[this.id] = this.checked;
+  });
+
+  localStorage.setItem('checkboxValues', JSON.stringify(checkboxValue));
+});
+
+// On page load
+$.each(checkboxValue, function(key, value) {
+  $('#' + key).prop('checked', value);
+});
+if (checkboxValue.checkbox === true) {
+  $('popup').hide();
+  $('.container').fadeIn(800);
+  $('.button').fadeOut(1);
+  console.log('hi',checkboxValue.checkbox);
+}
