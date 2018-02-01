@@ -1,73 +1,59 @@
 [
     {
         "name": "poultry", 
-        "description": "whatever",
         "beerPair": ["American-Style Amber/Red Ale", "American-Style Lager", "American-Style Pale Ale", "South German-Style Hefeweizen / Hefeweissbier", "English-Style India Pale Ale", "German-Style Pilsener"]
     },
     {
         "name": "bbq", 
-        "description": "asdf",
         "beerPair": ["Brown Porter", "English-Style India Pale Ale", "American-Style Stout", "Strong Ale"]
     },
     {
         "name": "thai", 
-        "description": "",
         "beerPair": ["German-Style Pilsener", "English-Style India Pale Ale", "American-Style Lager"]
     },
     {
         "name": "salad", 
-        "description": "",
         "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "American-Style Pale Ale", "American-Style Lager", "English-Style India Pale Ale", ""]
     },
     {
         "name": "dessert", 
-        "description": "",
         "beerPair": ["British-Style Barley Wine Ale", "American-Style Stout", "Brown Porter"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "beef", 
+        "beerPair": ["American-Style Amber/Red Ale", "Strong Ale", "Brown Porter", "American-Style Stout"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "fish", 
+        "beerPair": ["American-Style Amber/Red Ale", "English-Style India Pale Ale", "American-Style Pale Ale", "German-Style Pilsener", "South German-Style Hefeweizen / Hefeweissbier"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "game", 
+        "beerPair": ["English-Style India Pale Ale", "American-Style Stout", "Brown Porter", "Strong Ale"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "smoked-meat", 
+        "beerPair": ["American-Style Stout", "Brown Porter"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "pork", 
+        "beerPair": ["American-Style Lager", "Strong Ale", "American-Style Stout"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "italian", 
+        "beerPair": ["American-Style Lager"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "indian", 
+        "beerPair": ["German-Style Pilsener", "American-Style Pale Ale", "English-Style India Pale Ale", "American-Style Lager"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "japanese", 
+        "beerPair": ["German-Style Pilsener", "American-Style Lager"]
     },
     {
-        "name": "", 
-        "description": "",
-        "beerPair": ""
+        "name": "german", 
+        "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "German-Style Pilsener", "American-Style Pale Ale"]
     }
 
 ]
