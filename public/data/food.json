@@ -2,12 +2,12 @@
     {
         "name": "chicken",
         "style": "", 
-        "beerPair": ["pale-ale", "amber", "red-ale", "pilsner"]
+        "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "American-Style Amber/Red Ale", "German-Style Pilsener", "American-Style Pale Ale"]
     },
     {
         "name": "seafood",
         "style": "",
-        "beerPair": ["pale-ale", "amber", "red-ale"]
+        "beerPair": ["American-Style Pale Ale", "American-Style Amber/Red Ale", "German-Style Pilsener"]
     },
     {
         "name": "salad",
@@ -27,7 +27,7 @@
     {
         "name": "bbq",
         "style": "",
-        "beerPair": ["lager", "porter"]
+        "beerPair": ["Brown Porter", "American-Style Amber/Red Ale"]
     },
     {
         "name": "sausage",
