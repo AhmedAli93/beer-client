@@ -35,7 +35,7 @@ $(document).on('keydown', function(e) {
 $('.nope').click(function(event){
   $('.popup').fadeOut(800);
   $('.popup2').fadeIn(800);
-  $('.button').fadeOut(5);
+  $('.button').fadeOut(1);
   console.log('User is of age:', false);
 
 });
@@ -49,7 +49,7 @@ checkboxes.on('change', function(){
   checkboxes.each(function(){
     checkboxValue[this.id] = this.checked;
   });
-  
+
   localStorage.setItem('checkboxValues', JSON.stringify(checkboxValue));
 });
 
