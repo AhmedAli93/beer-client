@@ -9,6 +9,7 @@ if (window.location.pathname !== '/') {
 // console.log(app)
 
 // page('/'); //initial page where we verify if the user is of age
+page('/', app.chooseView.initChoicePage); //choice page, if you want to pair by food or by beer
 page('/choose', app.chooseView.initChoicePage); //choice page, if you want to pair by food or by beer
 page('/choosebybeer', app.beerView.initBeerPage); //beer choice page with categories of beer
 page('/choosebyfood', app.foodView.initFoodPage); //food choice page, choose by big category
