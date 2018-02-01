@@ -1,118 +1,73 @@
 [
     {
-        "name": "chicken",
-        "style": "", 
-        "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "American-Style Amber/Red Ale", "German-Style Pilsener", "American-Style Pale Ale"]
+        "name": "poultry", 
+        "description": "whatever",
+        "beerPair": ["American-Style Amber/Red Ale", "American-Style Lager", "American-Style Pale Ale", "South German-Style Hefeweizen / Hefeweissbier", "English-Style India Pale Ale", "German-Style Pilsener"]
     },
     {
-        "name": "seafood",
-        "style": "",
-        "beerPair": ["American-Style Pale Ale", "American-Style Amber/Red Ale", "German-Style Pilsener"]
+        "name": "bbq", 
+        "description": "asdf",
+        "beerPair": ["Brown Porter", "English-Style India Pale Ale", "American-Style Stout", "Strong Ale"]
     },
     {
-        "name": "salad",
-        "style": "",
-        "beerPair": ["pale-ale", "wheat-beer", "pilsner"]
+        "name": "thai", 
+        "description": "",
+        "beerPair": ["German-Style Pilsener", "English-Style India Pale Ale", "American-Style Lager"]
     },
     {
-        "name": "sushi",
-        "style": "",
-        "beerPair": "wheat-beer"
+        "name": "salad", 
+        "description": "",
+        "beerPair": ["South German-Style Hefeweizen / Hefeweissbier", "American-Style Pale Ale", "American-Style Lager", "English-Style India Pale Ale", ""]
     },
     {
-        "name": "spicy",
-        "style": "",
-        "beerPair": ["lager", "amber", "red-ale"]
+        "name": "dessert", 
+        "description": "",
+        "beerPair": ["British-Style Barley Wine Ale", "American-Style Stout", "Brown Porter"]
     },
     {
-        "name": "bbq",
-        "style": "",
-        "beerPair": ["Brown Porter", "American-Style Amber/Red Ale"]
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "sausage",
-        "style": "",
-        "beerPair": ["lager", "dark-ale", "porter"]
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "roasted-meat",
-        "style": "",
-        "beerPair": ["lager", "porter"]
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "roast-beef",
-        "style": "",
-        "beerPair": "strong-ale"
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "lamb",
-        "style": "",
-        "beerPair": "strong-ale"
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "game-meat",
-        "style": "",
-        "beerPair": "strong-ale"
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "roast-pork",
-        "style": "",
-        "beerPair": "dark-ale"
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "smoked-meat",
-        "style": "",
-        "beerPair": ["dark-ale", "porter"]
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     },
     {
-        "name": "grilled-meat",
-        "style": "",
-        "beerPair": "dark-ale"
-    },
-    {
-        "name": "salmon",
-        "style": "",
-        "beerPair": "dark-ale"
-    },
-    {
-        "name": "steak",
-        "style": "",
-        "beerPair": "stout"
-    },
-    {
-        "name": "meat-pie",
-        "style": "",
-        "beerPair": "stout"
-    },
-    {
-        "name": "oyster",
-        "style": "",
-        "beerPair": "stout"
-    },
-    {
-        "name": "blackened-fish",
-        "style": "",
-        "beerPair": "porter"  
-    },
-    {
-        "name": "burger",
-        "style": "",
-        "beerPair": ["amber", "red-ale"]
-    },
-    {
-        "name": "strong-cheese",
-        "style": "",
-        "beerPair": "barley-wine"
-    },
-    {
-        "name": "dessert",
-        "style": "",
-        "beerPair": "barley-wine"
-    },
-    {
-        "name": "bratwurst",
-        "style": "",
-        "beerPair": "pilsner"
+        "name": "", 
+        "description": "",
+        "beerPair": ""
     }
 
 ]
