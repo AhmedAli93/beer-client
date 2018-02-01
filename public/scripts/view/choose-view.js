@@ -1,14 +1,14 @@
 'use strict';
 
-var app= app || {};
+var app = app || {};
 
 (function (module) {
-
-    const chooseView = {};
-
+    
     function reset() {
         $('.container').hide();
     };
+    const chooseView = {};
+
 
     chooseView.initChoicePage = function() {
         reset();

@@ -3,7 +3,7 @@
 $('.container').hide();
 $('.button').show();
 
-$.get('/verify', (req, res) => {
+$.get('/getItems', (req, res) => {
   localStorage.beer = JSON.stringify(req.beer);
   localStorage.food = JSON.stringify(req.food);
 });

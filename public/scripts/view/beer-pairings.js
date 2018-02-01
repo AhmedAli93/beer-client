@@ -1,27 +1,23 @@
 'use strict';
 
-var app= app || {};
+var app = app || {};
 
 (function (module) {
 
-  beers = JSON.parse(localStorage.beer);
-  foods = JSON.parse(localStorage.food);
+  function reset() {
+    $('.container').hide();
+  };
 
-  beerPairing = {};
+  var beers = JSON.parse(localStorage.beer);
+  var foods = JSON.parse(localStorage.food);
+
+  var beerPairing = {};
 
   beerPairing.beers = function() {
+
     var indBeer = {};
 
-    //event listener for data arribtute where beerPairing.name === key.
-    $('.images').on('click', e => {
-        console.log('hi: ', e);
-        beers.forEach(beer => {
-            if(beer.name === $('li').attr(data))
-                beerPairing.append(this);
-
-
-        })
-    })
+   
   };
 
 
