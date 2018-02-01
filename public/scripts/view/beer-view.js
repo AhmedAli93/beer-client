@@ -17,6 +17,7 @@ var app = app || {};
     $('.beer-view').show();
     beerView.beers = JSON.parse(localStorage.beer);
     beerView.food = JSON.parse(localStorage.food);
+  }
 
     //event listener for data arribtute where beerPairing.name === key.
     $('.images').on('click', function(e) {
@@ -49,8 +50,7 @@ var app = app || {};
 
         }
       })
-    })
-  };
+    });
 
 
 
