@@ -1,3 +1,24 @@
+.nav-bar {
+    display: inline;
+}
+
+.about-us {
+    width: 110px;
+    float: left;
+}
+
+.choosebybeer {
+    float: right;
+    width: 141px;
+    margin-right: 58px;
+}
+
+.choosebyfood {
+    width: 143px;
+    float: right;
+    margin-right: 25px;
+}
+
 .search-food img {
     width: 480px;
     height: 254px; 
