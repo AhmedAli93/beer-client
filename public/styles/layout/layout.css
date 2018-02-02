@@ -456,6 +456,13 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     margin-left: 32%;
     margin-top: 5%;
 }
+.ahmed-pic {
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+    margin-left: 32%;
+    margin-top: 5%;
+}
 
 .about-view.container p {
     font-size: 14px;
