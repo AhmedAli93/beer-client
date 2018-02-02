@@ -380,6 +380,7 @@
 
 .food-pairings-view.container p{
     line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .food-pairings-view.container ul{
@@ -399,6 +400,7 @@
 
 .beer-pairings-view.container li p{
     line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
