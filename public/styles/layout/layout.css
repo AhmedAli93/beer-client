@@ -120,7 +120,7 @@
 }
 
 .light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .seafood img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     width: 230px;
     border-radius: 15px;
     height: 200px;
