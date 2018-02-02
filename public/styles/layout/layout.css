@@ -33,7 +33,8 @@
 }
 
 .search-food {
-    position: relative; 
+    position: relative;
+    padding-bottom: 10px; 
 }
 
 .search-beer {
