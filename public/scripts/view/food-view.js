@@ -30,6 +30,9 @@ var app = app || {};
     foodView.food.forEach(function(food) {
       if(food.name === e.target.id) {
         selected = food;
+        var foodName = document.createElement('h2');
+        foodName.textContent = 'Beers that pair nicely with ' + food.name + ':';
+        viewContainer.append(foodName);
       }
     })
     var beerList = selected.beerPair.map(v => {
@@ -48,6 +51,8 @@ var app = app || {};
       liEl.appendChild(pEl);
       ulEl.appendChild(liEl);
     })
+    
+    
     viewContainer.append(ulEl);
 
   })
