@@ -25,31 +25,31 @@
 .search-food img {
     border-radius: 15px;
     border: 3px solid white;
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     width: 480px;
     height: 254px; 
 }
 .search-food img:active {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .search-beer img {
     border-radius: 15px;
     border: 3px solid white;
-  -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     width: 480px;
     height: 254px;
     margin-bottom: 20px;
 }
 .search-beer img:active {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 .search-food {
     position: relative;
@@ -107,6 +107,9 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     width: 230px;
     height: 200px;
     border-radius: 15px;
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
+     box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 }
 
 .food-view.container {
@@ -119,10 +122,15 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     margin-right: 38px;
 }
 
+<<<<<<< HEAD
+.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .seafood img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
+    border: 3px solid white;
+=======
 
 .light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .fish img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
     border: 3px solid white;
 
+>>>>>>> 08551127886a0a4a362a4a174b732192e916e001
     width: 230px;
     border-radius: 15px;
     height: 200px;
@@ -130,7 +138,7 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
 }
-.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .fish img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img:active {
+.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .seafood img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img:active {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
