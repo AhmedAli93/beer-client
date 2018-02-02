@@ -99,7 +99,7 @@
     margin-right: 38px;
 }
 
-.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .fish img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
+.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .seafood img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
     width: 230px;
     height: 200px;
 }
@@ -228,7 +228,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.light, .spicy, .hearty, .roasted, .game, .bbq, .fish, .salad, .indian, .japanese, .thai, .german, .italian, .dessert {
+.light, .spicy, .hearty, .roasted, .game, .bbq, .seafood, .salad, .indian, .japanese, .thai, .german, .italian, .dessert {
     position: relative;
 }
 
@@ -292,7 +292,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.fish h3 {
+.seafood h3 {
     position: absolute;
     top: 38%;
     left: 45%;
