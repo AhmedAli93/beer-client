@@ -436,6 +436,12 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     font-family: 'Days One', sans-serif;
 }
 
+.beer-pairings-view.container h2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Days One', sans-serif;
+}
+
 .beer-pairings-view.container li p {
     line-height: 20px;
     font-family: 'Open Sans', sans-serif;
