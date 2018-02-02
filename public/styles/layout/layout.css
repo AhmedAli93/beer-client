@@ -262,7 +262,7 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     text-shadow: 2px 2px 2px black;
 }
 
-.light, .spicy, .hearty, .roasted, .game, .bbq, .fish, .salad, .indian, .japanese, .thai, .german, .italian, .dessert {
+.light, .spicy, .hearty, .roasted, .game, .bbq, .seafood, .salad, .indian, .japanese, .thai, .german, .italian, .dessert {
     position: relative;
 }
 
@@ -326,7 +326,7 @@ box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.75);
     text-shadow: 2px 2px 2px black;
 }
 
-.fish h3 {
+.seafood h3 {
     position: absolute;
     top: 38%;
     left: 45%;
