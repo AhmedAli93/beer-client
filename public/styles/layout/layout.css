@@ -98,7 +98,7 @@
     margin-right: 38px;
 }
 
-.light img, .spicy img, .hearty img, .roasted img, .cheese-dessert img, .bbq img, .vegetarian img, .seafood img {
+.light img, .spicy img, .hearty img, .roasted img, .game img, .bbq img, .fish img, .salad img, .indian img, .japanese img, .thai img, .german img, .italian img, .dessert img {
     width: 230px;
     height: 200px;
 }
@@ -227,7 +227,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.light, .spicy, .hearty, .roasted, .cheese-dessert, .bbq, .vegetarian, .seafood {
+.light, .spicy, .hearty, .roasted, .game, .bbq, .fish, .salad, .indian, .japanese, .thai, .german, .italian, .dessert {
     position: relative;
 }
 
@@ -271,7 +271,7 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.cheese-dessert h3 {
+.game h3 {
     position: absolute;
     top: 38%;
     left: 42%;
@@ -291,27 +291,87 @@
     text-shadow: 2px 2px 2px black;
 }
 
-.vegetarian h3 {
+.fish h3 {
     position: absolute;
     top: 38%;
-    left: 30%;
+    left: 45%;
     font-size: 20px;
     font-family: 'Days One', sans-serif;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 
-.seafood h3 {
+.salad h3 {
     position: absolute;
     top: 38%;
-    left: 35%;
+    left: 41%;
     font-size: 20px;
     font-family: 'Days One', sans-serif;
     color: white;
     text-shadow: 2px 2px 2px black;
 }
 
-beer-pairings-view.container h2 {
+.indian h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.japanese h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.thai h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.german h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.italian h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.dessert h3 {
+    position: absolute;
+    top: 38%;
+    left: 41%;
+    font-size: 20px;
+    font-family: 'Days One', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+food-pairings-view.container h2 {
 
 }
 
