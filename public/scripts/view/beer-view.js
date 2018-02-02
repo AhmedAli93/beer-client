@@ -21,6 +21,10 @@ var app = app || {};
 
   //event listener for data arribtute where beerPairing.name === key.
   $('.images').on('click', function(e) {
+    var fooddiv = $('#food-div')
+    if(fooddiv){
+      fooddiv.remove();
+    }
     beerView.beers.forEach(function(beer) {
       if(beer.name === e.target.id) {
 
@@ -31,6 +35,7 @@ var app = app || {};
         $('.container').hide();
         var foodContainer = $('.food-pairings-view');
         var contents = document.createElement('div');
+        contents.setAttribute('id', 'food-div');
         var title = document.createElement('h2');
         title.textContent = beer.name;
         var text = document.createElement('p');
