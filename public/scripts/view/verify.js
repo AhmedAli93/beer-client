@@ -60,7 +60,7 @@ $.each(checkboxValue, function(key, value) {
 });
 if (checkboxValue.checkbox === true) {
   $('popup').hide();
-  $('.container').fadeIn(800);
+  $('.choose-view').fadeIn(800);
   $('.button').fadeOut(1);
   console.log('hi',checkboxValue.checkbox);
 }
