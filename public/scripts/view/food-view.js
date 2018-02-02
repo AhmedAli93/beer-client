@@ -20,6 +20,10 @@ var app = app || {};
   var viewContainer = $('.beer-pairings-view');
 
   $('.food-image').on('click', function(e) {
+    var beerUl = $('#beer-list')
+    if(beerUl){
+      beerUl.remove();
+    }
     $('.container').hide()
     viewContainer.show();
     var selected;
@@ -33,6 +37,7 @@ var app = app || {};
     })
 
     var ulEl = document.createElement('ul');
+    ulEl.setAttribute('id', 'beer-list');
     beerList.forEach(v => {
       var liEl = document.createElement('li');
       var h2El = document.createElement('h2')

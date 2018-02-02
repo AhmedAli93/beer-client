@@ -372,9 +372,36 @@
     text-shadow: 2px 2px 2px black;
 }
 
-food-pairings-view.container h2 {
-
+.food-pairings-view.container h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px
 }
+
+.food-pairings-view.container p{
+    line-height: 20px;
+}
+
+.food-pairings-view.container ul{
+    list-style-type: circle;
+    margin-top: 15px;
+    margin-left: 3%;
+    font-weight: bold;
+    line-height: 18px;
+}
+
+.beer-pairings-view.container li h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.beer-pairings-view.container li p{
+    line-height: 20px;
+}
+
+
 
 /* About Us page CSS */
 .ryan-pic {
