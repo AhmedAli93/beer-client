@@ -375,7 +375,8 @@
 .food-pairings-view.container h2 {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-family: 'Days One', sans-serif; 
 }
 
 .food-pairings-view.container p{
@@ -389,6 +390,7 @@
     margin-left: 3%;
     font-weight: bold;
     line-height: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .beer-pairings-view.container li h2 {
@@ -396,6 +398,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     margin-top: 15px;
+    font-family: 'Days One', sans-serif;
 }
 
 .beer-pairings-view.container li p{
