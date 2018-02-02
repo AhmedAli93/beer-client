@@ -4,18 +4,15 @@ var app = app || {};
 
 (function (module) {
 
+  var beerPairing = {};
+
   function reset() {
     $('.container').hide();
   };
 
-  // var beers = JSON.parse(localStorage.beer);
-  // var foods = JSON.parse(localStorage.food);
-
-  var beerPairing = {};
-
-  beerPairing.beers = function() {
-  
-   
+  beerPairing.results = function() {
+    reset();
+    $('.food-pairings-view').show();
   };
 
 
